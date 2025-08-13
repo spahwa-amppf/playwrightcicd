@@ -1,0 +1,31 @@
+{
+  "scripts": {
+    "test-single": "npx playwright test \"tests/amplify.spec.js\" --headed",
+    "test-single-headless": "npx playwright test \"tests/amplify.spec.js\" --headed",
+    "test": "npx playwright test",
+    "test-cucumber-js": "cucumber-js --require-module ts-node/register --require step-definitions/**/*.ts features/**/*.feature",
+    "allure:generate": "allure generate allure-results --clean -o allure-report",
+    "allure:open": "allure open allure-report",
+    "allure:report": "allure generate allure-results --clean -o allure-report && allure open allure-report",
+    "test:bdd": "cucumber-js Features/Team2/features --require Features/Team2/step_definitions --format summary node_modules/allure-cucumberjs"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^9.6.0",
+    "@playwright/test": "^1.51.1",
+    "allure-commandline": "^2.33.0",
+    "allure-playwright": "^2.15.1",
+    "axios": "^1.4.0",
+    "cucumber-html-reporter": "^7.2.0",
+    "dotenv": "^16.5.0",
+    "mssql": "^10.0.4",
+    "playwright": "^1.51.1",
+    "ts-node": "^10.0.0",
+    "typescript": "^5.0.0",
+    "@types/node": "^22.10.1",
+    "playwright-bdd": "^8.2.0",
+    "adm-zip": "^0.5.16",
+    "pdf-lib": "^1.17.1",
+    "pdf-parse": "^1.1.1",
+    "unzipper": "^0.12.3"
+  }
+}

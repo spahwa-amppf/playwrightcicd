@@ -1,0 +1,319 @@
+{
+  "forms": [
+    {
+      "id": "SCHWAB/SCHWAB_IRA_APPLICATION_202501",
+      "path": null,
+      "flattenMode": "ALL",
+      "fields": [
+        {
+          "name": "clients[0].Form[0].Section2[0].border[0].ContactInfo_baseline[0].fullName[0].firstNameTF[0]",
+          "value": "$firstName"
+        },
+        {
+          "name": "clients[0].Form[0].Section2[0].border[0].ContactInfo_baseline[0].fullName[0].middleNameTF[0]",
+          "value": "$middleName"
+        },
+        {
+          "name": "clients[0].Form[0].Section2[0].border[0].ContactInfo_baseline[0].fullName[0].lastNameTF[0]",
+          "value": "$lastName"
+        },
+        {
+          "name": "clients[0].Form[0].Section2[0].border[0].ContactInfo_baseline[0].fullName[0].SuffixTF[0]",
+          "value": "$suffix"
+        },
+        {
+          "name": "clients[0].Form[0].Section2[0].border[0].ContactInfo_baseline[0].dobOrTrustDate[0]",
+          "value": "$dob"
+        },
+        {
+          "name": "clients[0].Form[0].Section2[0].border[0].ContactInfo_baseline[0].emailAddress[0].emailAddressTF[0]",
+          "value": "$email"
+        },
+        {
+          "name": "clients[0].Form[0].Section2[0].border[0].ContactInfo_baseline[0].emailAddress[0].motherMaidenName[0]",
+          "value": "$motherMaidenName"
+        },
+        {
+          "name": "clients[0].Form[0].Section2[0].border[0].ContactInfo_baseline[0].stateTF[0]",
+          "value": "$state"
+        },
+        {
+          "name": "clients[0].Form[0].Section2[0].border[0].ContactInfo_baseline[0].phoneNumbers[0].homePhoneTF[0]",
+          "value": "$phone"
+        },
+        {
+          "name": "clients[0].Form[0].Section2[0].border[0].ContactInfo_baseline[0].phoneNumbers[0].mobilePhoneTF[0]",
+          "value": "$mobilePhone"
+        },
+        {
+          "name": "clients[0].Form[0].Section2[0].border[0].ContactInfo_baseline[0].phoneNumbers[0].workPhoneTF[0]",
+          "value": "$workPhone"
+        },
+        {
+          "name": "clients[0].Form[0].Section2[0].border[0].ContactInfo_baseline[0].phoneNumbers[0].extensionTF[0]",
+          "value": "$phoneExtension"
+        },
+        {
+          "name": "clients[0].Form[0].Section2[0].border[0].ContactInfo_baseline[0].legalAddressDetails[0].legalAddressTF[0]",
+          "value": "$address"
+        },
+        {
+          "name": "clients[0].Form[0].Section2[0].border[0].ContactInfo_baseline[0].legalAddressDetails[0].cityTF[0]",
+          "value": "$city"
+        },
+        {
+          "name": "clients[0].Form[0].Section2[0].border[0].ContactInfo_baseline[0].legalAddressDetails[0].stateTF[0]",
+          "value": "$addressState"
+        },
+        {
+          "name": "clients[0].Form[0].Section2[0].border[0].ContactInfo_baseline[0].legalAddressDetails[0].zipCodeTF[0]",
+          "value": "$zip"
+        },
+        {
+          "name": "clients[0].Form[0].Section2[0].border[0].ContactInfo_baseline[0].legalAddressDetails[0].country[0]",
+          "value": "$country"
+        },
+        {
+          "name": "clients[0].Form[0].Section2[0].border[0].ContactInfo_baseline[0].mailingAddressDetails[0].mailingAddressTF[0]",
+          "value": "$mailingAddress"
+        },
+        {
+          "name": "clients[0].Form[0].Section2[0].border[0].ContactInfo_baseline[0].mailingAddressDetails[0].cityTF[0]",
+          "value": "$mailingCity"
+        },
+        {
+          "name": "clients[0].Form[0].Section2[0].border[0].ContactInfo_baseline[0].mailingAddressDetails[0].stateTF[0]",
+          "value": "$mailingState"
+        },
+        
+        {
+          "name": "clients[0].Form[0].Section2[0].border[0].mailingAddressDetails[0].country[0]",
+          "value": "$mailingCountry"
+        },
+        {
+          "name": "clients[0].Form[0].Section2[0].border[0].ContactInfo_baseline[0].ssnTaxIDTF[0]",
+          "value": "$ssn"
+        },
+        {
+          "name": "clients[0].Form[0].Section2[0].border[0].ContactInfo_baseline[0].others[0]",
+          "value": "$others"
+        },
+        {
+          "name": "clients[0].Form[0].Section2[0].border[0].person1[0].Trusted_Contact_Information1[0].fullName[0].FirstName[0]",
+          "value": "$trustedContactFirstName"
+        },
+        {
+          "name": "clients[0].Form[0].Section2[0].border[0].person1[0].Trusted_Contact_Information1[0].fullName[0].MiddleName[0]",
+          "value": "$trustedContactMiddleName"
+        },
+        {
+          "name": "clients[0].Form[0].Section2[0].border[0].person1[0].Trusted_Contact_Information1[0].fullName[0].LastName[0]",
+          "value": "$trustedContactLastName"
+        },
+       
+        {
+          "name": "clients[0].Form[0].Section2[0].border[0].person1[0].Trusted_Contact_Information1[0].Relationship[0]",
+          "value": "$trustedContactRelationship"
+        },
+     
+        {
+          "name": "clients[0].Form[0].Section7[0].border[0].#subform[0].AccountOpenBeneInformation1[0].fullName[0].firstNameTF[0]",
+          "value": "$beneFirstName"
+        },
+        {
+          "name": "clients[0].Form[0].Section7[0].border[0].#subform[0].AccountOpenBeneInformation1[0].fullName[0].middleNameTF[0]",
+          "value": "$beneMiddleName"
+        },
+        {
+          "name": "clients[0].Form[0].Section7[0].border[0].#subform[0].AccountOpenBeneInformation1[0].fullName[0].lastNameTF[0]",
+          "value": "$beneLastName"
+        },
+        {
+          "name": "clients[0].Form[0].Section7[0].border[0].#subform[0].AccountOpenBeneInformation1[0].fullName[0].SuffixTF[0]",
+          "value": "$beneSuffix"
+        },
+        {
+          "name": "clients[0].Form[0].Section7[0].border[0].#subform[0].AccountOpenBeneInformation1[0].dobOrTrustDate[0]",
+          "value": "$beneDob"
+        },
+        {
+          "name": "clients[0].Form[0].Section7[0].border[0].#subform[0].AccountOpenBeneInformation1[0].relationship[0]",
+          "value": "$beneRelationship"
+        },
+        {
+          "name": "clients[0].Form[0].Section7[0].border[0].#subform[0].AccountOpenBeneInformation1[0].ssnTaxIDTF[0]",
+          "value": "$beneSsn"
+        },
+       
+        {
+          "name": "clients[0].Form[0].Section7[0].border[0].#subform[0].AccountOpenBeneInformation1[0].mailingAddressDetails[0].cityTF[0]",
+          "value": "$beneCity"
+        },
+        {
+          "name": "clients[0].Form[0].Section7[0].border[0].#subform[0].AccountOpenBeneInformation1[0].mailingAddressDetails[0].stateTF[0]",
+          "value": "$beneState"
+        },
+        {
+          "name": "clients[0].Form[0].Section7[0].border[0].#subform[0].AccountOpenBeneInformation1[0].mailingAddressDetails[0].zipCodeTF[0]",
+          "value": "$beneZip"
+        },
+        {
+          "name": "clients[0].Form[0].Section7[0].border[0].#subform[0].AccountOpenBeneInformation1[0].mailingAddressDetails[0].countryTF[0]",
+          "value": "$beneCountry"
+        },
+        {
+          "name": "clients[0].Form[0].Section1[0].border[0].SelectIRAType[0].roth[0].insideCheck[0].partialConversion[0]",
+          "value": "$rothPartialConversion",
+          "type": "checkbox"
+        },
+        {
+          "name": "clients[0].Form[0].Section1[0].border[0].SelectIRAType[0].TaxWithholdingElection[0].CheckboxListForB[0]",
+          "value": "$taxWithholdingCheckboxListB",
+          "type": "checkbox"
+        },
+        {
+          "name": "clients[0].Form[0].Section1[0].border[0].SelectIRAType[0].TaxWithholdingElection[0].CheckboxListForB[0].Checkboxes[0]",
+          "value": "$taxWithholdingCheckboxesB",
+          "type": "checkbox"
+        },
+        
+        {
+          "name": "clients[0].Form[0].Section1[0].border[0].SelectIRAType[0].TaxWithholdingElection[0].CheckboxListForB[0].Checkboxes[0].I_Want[0]",
+          "value": "$taxWithholdingIWant",
+          "type": "checkbox"
+        },
+        {
+          "name": "clients[0].Form[0].Section1[0].border[0].SelectIRAType[0].simpleIRA[0]",
+          "value": "$simpleIRA",
+          "type": "checkbox"
+        },
+        {
+          "name": "clients[0].Form[0].Section1[0].border[0].SelectIRAType[0].simpleIRA[0].Checkboxes[0]",
+          "value": "$simpleIRACheckboxes",
+          "type": "checkbox"
+        },
+        {
+          "name": "clients[0].Form[0].Section1[0].border[0].SelectIRAType[0].simpleIRA[0].Checkboxes[0].contributory[0]",
+          "value": "$simpleIRAContributory",
+          "type": "checkbox"
+        },
+        {
+          "name": "clients[0].Form[0].Section1[0].border[0].SelectIRAType[0].pensionIRA[0]",
+          "value": "$pensionIRA",
+          "type": "checkbox"
+        },
+        {
+          "name": "clients[0].Form[0].Section1[0].border[0].SelectIRAType[0].pensionIRA[0].Checkboxes[0]",
+          "value": "$pensionIRACheckboxes",
+          "type": "checkbox"
+        },
+        {
+          "name": "clients[0].Form[0].Section1[0].border[0].SelectIRAType[0].pensionIRA[0].Checkboxes[0].SAP-IRA[0]",
+          "value": "$pensionIRASAP",
+          "type": "checkbox"
+        },
+        {
+          "name": "clients[0].Form[0].Section1[0].border[0].SelectIRAType[0].pensionIRA[0].Checkboxes[0].SARSEP-IRA[0]",
+          "value": "$pensionIRASARSEP",
+          "type": "checkbox"
+        },
+        {
+          "name": "Bene1_Distribution_Yes",
+          "value": "$bene1DistributionYes",
+          "type": "checkbox"
+        },
+        {
+          "name": "Bene1_Distribution_No",
+          "value": "$bene1DistributionNo",
+          "type": "checkbox"
+        },
+        {
+          "name": "Bene2_Distribution_Yes",
+          "value": "$bene2DistributionYes",
+          "type": "checkbox"
+        },
+        {
+          "name": "Bene2_Distribution_No",
+          "value": "$bene2DistributionNo",
+          "type": "checkbox"
+        },
+        {
+          "name": "Bene3_Distribution_Yes",
+          "value": "$bene3DistributionYes",
+          "type": "checkbox"
+        },
+        {
+          "name": "Bene3_Distribution_No",
+          "value": "$bene3DistributionNo",
+          "type": "checkbox"
+        },
+        {
+          "name": "Bene4_Distribution_Yes",
+          "value": "$bene4DistributionYes",
+          "type": "checkbox"
+        },
+        {
+          "name": "Bene4_Distribution_No",
+          "value": "$bene4DistributionNo",
+          "type": "checkbox"
+        },
+        {
+          "name": "clients[0].Form[0].Section1[0].border[0].SelectIRAType[0].roth[0].cashAmt[0]",
+          "value": "$rothCashAmt"
+        },
+        {
+          "name": "clients[0].Form[0].Section1[0].border[0].SelectIRAType[0].TaxWithholdingElection[0]",
+          "value": "$taxWithholdingElection"
+        },
+      
+        {
+          "name": "clients[0].Form[0].Section1[0].border[0].SelectIRAType[0].TaxWithholdingElection[0].Subform[0].PercentageField[0]",
+          "value": "$taxWithholdingPercentage"
+        },
+     
+        
+       
+        {
+          "name": "clients[0].Form[0].Section1[0].border[0].SelectIRAType[0].TaxWithholdingElection[0].CheckboxListForB[0].Checkboxes[0].I_Want[0]",
+          "value": "$taxWithholdingIWant"
+        },
+        {
+          "name": "clients[0].Form[0].Section1[0].border[0].SelectIRAType[0].TaxWithholdingElection[0].CheckboxListForB[0].Checkboxes[0].PercentageField[0]",
+          "value": "$taxWithholdingCheckboxPercentage"
+        },
+        {
+          "name": "clients[0].Form[0].Section1[0].border[0].SelectIRAType[0].simpleIRA[0]",
+          "value": "$simpleIRA"
+        },
+        {
+          "name": "clients[0].Form[0].Section1[0].border[0].SelectIRAType[0].simpleIRA[0].Checkboxes[0]",
+          "value": "$simpleIRACheckboxes"
+        },
+        {
+          "name": "clients[0].Form[0].Section1[0].border[0].SelectIRAType[0].simpleIRA[0].Checkboxes[0].contributory[0]",
+          "value": "$simpleIRAContributory"
+        },
+        {
+          "name": "clients[0].Form[0].Section1[0].border[0].SelectIRAType[0].simpleIRA[0].nameOfEmployer[0]",
+          "value": "$simpleIRAEmployer"
+        },
+        {
+          "name": "clients[0].Form[0].Section1[0].border[0].SelectIRAType[0].simpleIRA[0].nameOfEmployer1[0]",
+          "value": "$simpleIRAEmployer1"
+        },
+        {
+          "name": "clients[0].Form[0].section10[0].border[0].Designate_an_Authorized_Party[0].telephoneAndEmail[0]",
+          "value": "$authorizedPartyTelephoneAndEmail"
+        },
+        {
+          "name": "clients[0].Form[0].section10[0].border[0].Designate_an_Authorized_Party[0].telephoneAndEmail[0].PhoneNumber[0]",
+          "value": "$authorizedPartyPhoneNumber"
+        },
+        {
+          "name": "clients[0].Form[0].section10[0].border[0].Designate_an_Authorized_Party[0].telephoneAndEmail[0].Email[0]",
+          "value": "$authorizedPartyEmail"
+        }
+      ]
+    }
+  ]
+}

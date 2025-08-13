@@ -1,0 +1,26 @@
+{
+  "forms": [
+    {
+      "id": "FIDELITY/FIDELITY_TRUST_APPLICATION_202412",
+      "path": null,
+      "flattenMode": "ALL",
+      "fields": [
+      
+        { "name": "ESIG_PRIMARY_OWNER_AS_SSN_TIN_0", "value": "$ssn" },
+        { "name": "ESIG_PRIMARY_OWNER_AS_DateofTrust_0", "value": "$dateOfTrust" },
+        { "name": "ESIG_PRIMARY_OWNER_AS_StateWhereOrganized_0", "value": "$trustState" },
+        { "name": "ESIG_PRIMARY_OWNER_AS_Address_0", "value": "$address" },
+        { "name": "ESIG_PRIMARY_OWNER_AS_City_0", "value": "$city" },
+        { "name": "ESIG_PRIMARY_OWNER_AS_State01_0", "value": "$state" },
+        { "name": "ESIG_PRIMARY_OWNER_AS_Zip_0", "value": "$zip" },
+        { "name": "ESIG_PRIMARY_OWNER_AS_Country_0", "value": "$citizenship" },
+        { "name": "ESIG_PRIMARY_OWNER_PI_FirstName_1", "value": "$firstName" },
+        { "name": "ESIG_PRIMARY_OWNER_PI_LastName_1", "value": "$lastName" },
+        { "name": "ESIG_PRIMARY_OWNER_PI_DOB_1", "value": "$dob" },
+        { "name": "ESIG_PRIMARY_OWNER_PI_Email_1", "value": "$email" },
+        { "name": "ESIG_PRIMARY_OWNER_PI_DaytimePhone_1", "value": "$phone" }
+        
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+name: Playwright Scheduled Test
+
+on:
+  schedule:
+    # 5 PM IST is 11:30 AM UTC
+    - cron: '30 11 * * 1'  # Every Monday
+    - cron: '30 11 * * 3'  # Every Wednesday
+  workflow_dispatch:  # Allow manual runs
+
+permissions:
+  contents: read        # To checkout code
+  actions: read         # To read workflow metadata
+  checks: write         # To publish test results
+  issues: write         # If you need to create/update issues from tests
+  pull-requests: write  # If reporting test results to PRs
+  id-token: write       # For OIDC auth if needed
+  artifacts: write      # Needed to upload artifacts
+
+jobs:
+  run-playwright-tests:
+    if: github.ref == 'refs/heads/playwright'  # Restrict to 'playwright' branch
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Install Dependencies
+        run: npm ci
+
+      - name: Install Playwright Browsers
+        run: npx playwright install --with-deps
+
+      - name: Run Playwright Tests
+        run: npx playwright test --grep "@smoke"
+
+      - name: Upload Playwright Report
+        if: always()
+        uses: actions/upload-artifact@v3
+        with:
+          name: playwright-report
+          path: playwright-report/
