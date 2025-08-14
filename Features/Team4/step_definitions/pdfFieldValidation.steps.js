@@ -24,7 +24,7 @@ const AdmZip = require('adm-zip');
 
 
 // --- Workflow selection from feature file name ---
-const formDataPath = path.resolve(__dirname, '../data/formData.json');
+const formDataPath = path.resolve(__dirname, '../data/FormData.json');
 const formData = JSON.parse(fs.readFileSync(formDataPath, 'utf8'));
 
 let workflow = 'schwabira';
