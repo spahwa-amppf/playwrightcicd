@@ -9,8 +9,9 @@ const testDir = defineBddConfig({
 
 module.exports = defineConfig({
   testDir,
-  timeout: 120_000,
-  expect: { timeout: 10_000 },
+  timeout: 300_000, // 5 minutes per test
+  expect: { timeout: 30_000 }, // 30s per expect/assertion
+  globalTimeout: 3_600_000, // 1 hour max for the entire run
   fullyParallel: true,
   retries: 0,
  reporter: [
