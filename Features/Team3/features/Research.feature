@@ -1,5 +1,4 @@
 Feature: Research Workflow
-
   @smoke
   Scenario: Admin left panel views the Research section
     Given The HomePage is opened
