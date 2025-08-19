@@ -9,8 +9,7 @@ Feature: Navigate to Trade Management in Organizations
     Then the user navigates to "Trade Management"
     Then the user click on "Staged" from the left navigation
     Then the user should see "StagedTrades" section header
-
-  @Trade @smoke
+  @smoke
   Scenario: Trade Management > Staged section > Validate table structure and headers
     Given The HomePage is opened
     Given the user is logged in as "admin"
